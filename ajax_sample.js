@@ -40,7 +40,7 @@ function ajaxFetchInputFile() {
     formData.append("authToken" , encodeURIComponent(authToken));
     formData.append("uploadFile" , uploadfile);
 
-	let url = "/hss/api/importXXXX";
+	let url = "/api/importXXXX";
 	return getAjaxFormData(formData, url);
 }
 
